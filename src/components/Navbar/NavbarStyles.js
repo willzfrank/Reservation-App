@@ -9,6 +9,7 @@ export const NavbarContainer = styled.nav`
     background: var(--main-color);
     h2 {
       color: white;
+      font-size: 30px;
     }
   }
 
@@ -18,9 +19,15 @@ export const NavbarContainer = styled.nav`
 
     .Nav--btn {
       border: none;
-      background: var(--light-main);
-      padding: 0.5rem;
+      background: var(--text-bg);
+      padding: 0.5rem 1rem;
+      cursor: pointer;
       transition: 0.9s;
+      border-radius: 10px;
+      font-weight: bold;
+      &:hover {
+        background: var(--light-main);
+      }
     }
   }
 `;
@@ -39,8 +46,15 @@ export const NavbarLists = styled.nav`
       list-style: none;
       border: 1px solid white;
       padding: 0.5rem 1rem;
+      background: var(--text-bg);
       border-radius: 10px;
       cursor: pointer;
+      color: var(--main-color);
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      gap: 5px;
+      font-weight: bold;
 
       &:hover {
         border-color: var(--light-main);

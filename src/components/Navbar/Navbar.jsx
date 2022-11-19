@@ -1,5 +1,10 @@
 import React from "react";
 import { NavbarContainer, NavbarLists } from "./NavbarStyles";
+import HotelIcon from "@mui/icons-material/Hotel";
+import FlightIcon from "@mui/icons-material/Flight";
+import CarRentalIcon from "@mui/icons-material/CarRental";
+import AttractionsIcon from "@mui/icons-material/Attractions";
+import LocalTaxiIcon from "@mui/icons-material/LocalTaxi";
 
 const Navbar = () => {
   return (
@@ -14,11 +19,23 @@ const Navbar = () => {
 
       <NavbarLists>
         <ul>
-          <li>Stays</li>
-          <li>Flights</li>
-          <li>Car Rentals</li>
-          <li>Attractions</li>
-          <li>Airport Taxis</li>
+          <li>
+            <HotelIcon />
+            Stays
+          </li>
+          <li>
+            <FlightIcon />
+            Flights
+          </li>
+          <li>
+            <CarRentalIcon /> Car Rentals
+          </li>
+          <li>
+            <AttractionsIcon /> Attractions
+          </li>
+          <li>
+            <LocalTaxiIcon /> Airport Taxis
+          </li>
         </ul>
       </NavbarLists>
     </NavbarContainer>
