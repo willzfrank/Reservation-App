@@ -42,6 +42,7 @@ export const HeaderSearchContainer = styled.div`
   position: absolute;
   bottom: -25px;
   width: 94%;
+  z-index: 2;
 
   svg {
     color: var(--text-bg);
@@ -85,6 +86,7 @@ export const HeaderSearchContainer = styled.div`
       position: absolute;
       top: 50px;
       background: white;
+      z-index: 2;
       border-radius: 5px;
       -webkit-box-shadow: 0px 0px 10px -5px var(--thick-main);
       box-shadow: 0px 0px 10px -5px var(--thick-main);
