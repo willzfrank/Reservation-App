@@ -23,7 +23,7 @@ export const NavbarContainer = styled.nav`
       padding: 0.5rem 1rem;
       cursor: pointer;
       transition: 0.9s;
-      border-radius: 10px;
+      border-radius: 4px;
       font-weight: bold;
       &:hover {
         background: var(--light-main);
@@ -40,20 +40,20 @@ export const NavbarLists = styled.nav`
   ul {
     display: flex;
     align-items: center;
-    gap: 50px;
+    gap: 40px;
 
     li {
       list-style: none;
       border: 1px solid white;
-      padding: 0.5rem 1rem;
+      padding: 10px;
       background: var(--text-bg);
-      border-radius: 10px;
+      border-radius: 20px;
       cursor: pointer;
       color: var(--main-color);
       display: flex;
       align-items: center;
       justify-content: center;
-      gap: 5px;
+      gap: 10px;
       font-weight: bold;
 
       &:hover {
